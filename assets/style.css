@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Century Gothic;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+body{
+    background-color: #2222FF;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    padding: 50px 100px;
+    width: 100vw;
+    height: 5vh;
+}
+
+#logo{
+    width: 10vw;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+main{
+    display: flex;
+    padding: 0px 50px;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50vw;
+}
+
+main form h1{
+    font-size: 75pt;
+    color: #00E5FC;
+}
+
+main form h2{
+    font-size: 75pt;
+}
+
+main form input{
+    background-color: #2222FF;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    width: 80%;
+}
+
+main form label{
+    font-weight: 900;
+}
+
+main form input::placeholder{
+    color: #fefefe;
+}
+
+main form select{
+    background-color: #2222FF;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+main form button{
+    background-color: #00E5FC;
+    color: #000;
+    font-weight: 900;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+footer{
+    width: 100vw;
+    text-align: center;
+    padding: 25px;
+    background-color: #f0f0f0;
+}
+
+footer p {
+    color: #000;
+    font-weight: 900;
+}

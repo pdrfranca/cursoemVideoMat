@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso em Vídeo - Fomulário de Matrícula</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <a href="https://www.cursoemvideo.com"><img src="https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo-branca.png" alt="Logo Curso em Video" id="logo"></a>
+        <nav>
+            <ul>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Cursos</li>
+                </a>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Sobre</li>
+                </a>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Seja um apoiador</li>
+                </a>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Blog</li>
+                </a>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Login</li>
+                </a>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Cadastre-se</li>
+                </a>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Validação de Certificado</li>
+                </a>
+                <a href="https://www.cursoemvideo.com">
+                    <li>Hall da Fama</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form role="form" id="matricula-form" aria-labelledby="matricula-title">
+            <div id="cabecalho">
+                <h1 id="matricula-title">Formulário</h1>
+                <h2>de Matrícula.</h2>    
+            </div>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required aria-required="true">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required aria-required="true">
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required aria-required="true">
+            </div>
+            <div>
+                <label for="curso">Curso:</label>
+                <select id="curso" name="curso" required aria-required="true">
+                    <option value="">Escolha seu próximo curso</option>
+                    <option value="1">Informática para Internet</option>
+                    <option value="2">Desenvolvimento Web</option>
+                    <option value="3">Banco de Dados</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Enviar matrícula</button>
+            </div>
+        </form>
+        <img src="https://www.cursoemvideo.com/wp-content/uploads/2019/08/guana6.png" alt="guanabara professor imagem" id="guanabara">
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Frutuoso 2024© 😎</p>
+    </footer>
+</body>
+</html>
